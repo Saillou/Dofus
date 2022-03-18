@@ -23,7 +23,6 @@ void FontEngine::_cell(int x, int y) {
 
 	cv::rectangle(_internalFrame, cv::Rect(px, py, _DRECT.width, _DRECT.height), cv::Scalar(0, 0, 255), 1, cv::LINE_AA);
 
-
 	cv::imshow("_internalFrame", _internalFrame);
 	cv::waitKey(0);
 }
